@@ -24,13 +24,16 @@
 - **Python 3.8+**
 
 
+## Структура проекта
+
+```text
 snake1/
 ├── snake.py              # точка входа 
 ├── game/
 │   ├── __init__.py       # экспорт Snake, Game
 │   ├── snake.py          # класс Snake — тело, движение, рост
 │   ├── game.py           # класс Game — поле, еда, счёт, состояние
-│   ├── renderer.py       # отрисовка через ANSI 
+│   ├── renderer.py       # отрисовка через ANSI
 │   └── input.py          # ввод с клавиатуры 
 ├── tests/
 │   └── test_logic.py     # unit-тесты логики
